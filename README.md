@@ -190,8 +190,10 @@ This assignment will be graded via peer assessment.
     #     [,1] [,2]
     #[1,]    1    3
     #[2,]    2    4
-   funs$setInverse()
-   funs$getInverse()
-    #     [,1] [,2]
-    #[1,]   -2  1.5
-    #[2,]    1 -0.5
+   
+    funs$setInverse()
+    funs$getInverse()
+    
+     #     [,1] [,2]
+     #[1,]   -2  1.5
+     #[2,]    1 -0.5
