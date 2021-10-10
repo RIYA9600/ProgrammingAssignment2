@@ -197,3 +197,7 @@ This assignment will be graded via peer assessment.
      #     [,1] [,2]
      #[1,]   -2  1.5
      #[2,]    1 -0.5
+     
+     # the SHA-1 hash identifier corresponding to the commit that contains the full submission (the identifier should be a string of 40 characters containing numbers 0-9 and          #letters a-f).
+
+     #52c916ed6302fe1f380b3a414312522a7e909103
