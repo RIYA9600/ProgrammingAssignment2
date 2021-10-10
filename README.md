@@ -147,12 +147,16 @@ This assignment will be graded via peer assessment.
             message("getting cached data")
             return(m)
     }
+    
     ## Get the matrix from our object
     data <- x$get()
+    
     ## Calculate the inverse using matrix multiplication
     m <- solve(data) %*% data
+    
     ## Set the inverse to the object
     x$setInverse(m)
+    
     ## Return the matrix
     m
 }
