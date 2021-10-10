@@ -104,15 +104,14 @@ In order to complete this assignment, you must do the following:
 
 This assignment will be graded via peer assessment.
 
-****R Programming Assignment 2 
 
-****## A pair of functions that cache the inverse of a matrix
-## Creates a special matrix object that can cache its inverse
+## R Programming Assignment 2 
+
+      ## A pair of functions that cache the inverse of a matrix
+      ## Creates a special matrix object that can cache its inverse
 makeCacheMatrix <- function( m = matrix() ) {
-
-	## Initialize the inverse property
+      ## Initialize the inverse property
     i <- NULL
-
     ## Method to set the matrix
     set <- function( matrix ) {
             m <<- matrix
@@ -143,10 +142,9 @@ makeCacheMatrix <- function( m = matrix() ) {
 }
 
 
-## Compute the inverse of the special matrix returned by "makeCacheMatrix"
-## above. If the inverse has already been calculated (and the matrix has not
-## changed), then the "cachesolve" should retrieve the inverse from the cache.
-
+    ## Compute the inverse of the special matrix returned by "makeCacheMatrix"
+    ## above. If the inverse has already been calculated (and the matrix has not
+    ## changed), then the "cachesolve" should retrieve the inverse from the cache.
 
 cacheSolve <- function(x, ...) {
 
@@ -171,5 +169,4 @@ cacheSolve <- function(x, ...) {
     ## Return the matrix
     m
 }
-**
-**
+
